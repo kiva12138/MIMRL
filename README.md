@@ -25,9 +25,11 @@ cmd = 'python Main.py --task_name mosiDec52.1 --dataset mosi_Dec --log_scale 0-0
 print(cmd)
 !{cmd}
 ```
-For more running commands, please refer to _Run.ipynb_. We also provide several different approaches to estimating the mutual information in _VMI.py_. If you like to use them for other works, just take them and GOOD LUCK! 
+For more running commands, please refer to _Run2.ipynb_. We also provide several different approaches to estimating the mutual information in _VMI.py_. If you like to use them for other works, just take them and GOOD LUCK! 
 
 Before running, be sure to change the paths in _Config.py_, in which I have also sorted some common datasets for sentiment analysis. For MOSI and MOSEI, please refer to https://github.com/kiva12138/CubeMLP to get the downloading links. For AVEC2019, I am sorry I cannot provide the processed files directly, as this is a private dataset. If you have already have licences to this dataset, please contact sunhaoxx@zju.edu.cn to get the processed files.
+
+The last notice, this work was conducted and implemented in 2022. If you simply run the codes on the latest platform, some bugs may occur. If so, please just contact us.
 
 If you want to work with us in the multimodal field or need any help, please feel free to contact us.
 
